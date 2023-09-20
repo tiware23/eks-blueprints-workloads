@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: skiapp
-          image: sharepointoscar/skiapp:v1
+          image: sharepointoscar/skiapp:v2
           env:
             - name: CLUSTER_NAME
               value: {{.Values.spec.clusterName}}
